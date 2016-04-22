@@ -1,0 +1,20 @@
+/* CSS Document */
+#id1{
+	padding-top:5%;
+	width:100%;
+}
+
+.p_footer{
+	position: absolute;
+	bottom: 0;
+	width: 100% !important;
+ }
+ input { 
+	padding-right:3%;
+ }
+ 
+ #careers_form{
+	width: 50%; 
+	margin: 0 auto;
+   
+ }

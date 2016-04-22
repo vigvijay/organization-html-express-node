@@ -1,0 +1,76 @@
+/* CSS Document */
+
+#revamp_list{
+list-style: outside ;
+padding-left:8%;
+	}
+#revamp_list li {
+  color: #FF6952;
+}
+#revamp_list li span {
+  color: #d1d3d2; 
+}
+
+#design_list{
+list-style: outside ;
+  padding-left:20%;
+	}
+#design_list li {
+  color: #FF6952;
+}
+#design_list li span {
+  color: #d1d3d2; 
+}
+#logo_section{
+	float:left;
+	padding:3%;
+	padding-bottom:0.05%;
+	height:35px;
+	display:inline-block;
+}
+#career_header{
+	text-align:center;
+}
+#career_header h3{
+	font-size:24px;
+	font-weight:bold;
+	margin-bottom:1%;
+}
+.career_footer {
+            background-color:black;
+            height:50px;
+            width:auto;
+            text-align:center;
+            color:#d1d3d2;
+            padding-top:1%;
+        }
+#career_launch{
+	text-align:center;
+	color:white;
+}
+#careers_confirmation, #home_router, #careers_failure{
+	padding-top:3%;
+}
+#careers_confirmation h3, #home_link, #careers_failure h3{
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+}
+#careers_confirmation h4, #careers_failure h4{
+	padding-top:2%;
+}
+.ctc_form{
+	float:left;
+	width:55%;
+	overflow:hidden;
+}
+#contact_form{
+	float:left;
+	width:100%;
+	max-width:100%;
+	padding-left:10%;
+}
+.md-content div ul{
+	list-style-type:square;
+	color: white;	
+}

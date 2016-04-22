@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+	<title>Gallary</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!--<link href="css/magnific-popup.css" rel="stylesheet"> -->
+	<link href="css/templatemo_style.css" rel="stylesheet" type="text/css">	
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+</head>
+<body style="background-color:white;">
+			<div class="md-modal md-effect-1" id="modal-1">
+			<div class="md-content">
+				<h3>Modal Dialog</h3>
+				<div>
+					<p>This is a modal window. You can do the following things with it:</p>
+					<ul>
+						<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+						<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+						<li><strong>Close:</strong> click on the button below to close the modal.</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+		<!--<div class="content-container" >-->
+			<header>
+			<!--<h1 class="center-text">Gallary at glance</h1>-->
+			
+		</header>
+		<div id="portfolio-content" class="center-text">
+			<div class="portfolio-page" id="page-1">
+				<!--<div class="portfolio-group">
+					<a class="portfolio-item" >
+						<img src="images/1-small.jpg" alt="image 1">
+						<div class="detail">
+							<h3>Website Design and Development</h3>
+							<p>Duis ac laoreet mi. Maecenas non lorem sed elit molestie tincidunt. Vestibulum tincidunt libero urna, ut dignissim purus accumsan nec.</p>
+							<!--<span class="btn">View</span>
+                            <button class="md-trigger" data-modal="modal-1">Fade in &amp; Scale</button>
+						</div>
+					</a>				
+				</div>-->
+                <button class="md-trigger" data-modal="modal-1">Fade in &amp; Scale</button>
+				<div class="portfolio-group">
+					<a class="portfolio-item" href="images/2-large.jpg">
+						<img src="images/2-small.jpg" alt="image 2">
+						<div class="detail">
+							<h3>Website Optimizations</h3>
+							<p>Sed in molestie lectus. Curabitur non est neque. Maecenas id luctus ligula. Duis ac laoreet mi. Maecenas non lorem sed elit molestie tincidunt.</p>
+							<span class="btn">View</span>
+						</div>
+					</a>				
+				</div>
+				<div class="portfolio-group">
+					<a class="portfolio-item" href="images/3-large.jpg">
+						<img src="images/3-small.jpg" alt="image 3">
+						<div class="detail">
+							<h3>Clear River</h3>
+							<p>Duis ac laoreet mi. Maecenas non lorem sed elit molestie tincidunt. Vestibulum tincidunt libero urna, ut dignissim purus accumsan nec.</p>
+							<span class="btn">View</span>
+						</div>
+					</a>				
+				</div>
+				</div><!-- /container -->
+		
+			
+			<!--</div> page 3 		
+			<div class="pagination">
+				<ul class="nav">
+					<li class="active">1</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</div> 
+		</div> -->
+	</div>	<!-- /.content-container -->
+    </div>
+    	
+    <div class="md-overlay"></div>
+	<script type="text/javascript" src="js/classie.js"></script>
+	<script src="js/modalEffects.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/modernizr.2.5.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script> 
+	<script type="text/javascript" src="js/templatemo_script.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$('.pagination li').click(changePage);
+			$('.portfolio-item').magnificPopup({ 
+				type: 'image',
+				gallery:{
+					enabled:true
+				}
+			});
+		});
+	</script>	
+</body>
+</html>
